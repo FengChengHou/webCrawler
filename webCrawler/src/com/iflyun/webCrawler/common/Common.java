@@ -10,19 +10,19 @@ public class Common {
 	/**
 	 * 测试接口检测数据库
 	 */
-//	public static String mysqlUrl ="jdbc:mysql://172.16.10.185:3306/crawler?useUnicode=true&characterEncoding=UTF-8";
-//	public static String mysqlUsername = "crawler";
-//	public static String mysqlPassword = "crawlerDB12345";
-	// 登录(测试)
-//	public static String UCLogin = "http://172.16.10.39:8080/uucenter-ws-web/webservice/eho/login";
-
-	public static String mysqlUrl = "jdbc:mysql://172.16.7.135:3306/crawlers?useUnicode=true&characterEncoding=UTF-8";
-	public static String mysqlUsername = "crawlers";
-	public static String mysqlPassword = "crawlersDB12345";
-
+//	public static String mysqlUrl ="jdbc:mysql://xxx.xx.xx.xx:xx/xxx?useUnicode=true&characterEncoding=UTF-8";
+//	public static String mysqlUsername = "xx";
+//	public static String mysqlPassword = "xx";	
 	// （生产）
-//	public static String UCLogin = "http://172.16.7.55:85/uucInterface/webservice/eho/login";
-	public static String UCLogin = "http://jkcsl.uc.iflyun.com:80/uucInterface/webservice/eho/login";
+	public static String mysqlUrl ="jdbc:mysql://xxx.xx.xx.xx:xx/xxx?useUnicode=true&characterEncoding=UTF-8";
+	public static String mysqlUsername = "xx";
+	public static String mysqlPassword = "xx";
+
+	
+	// 登录(测试)
+//	public static String UCLogin = "http://xx.xx.xx.xx:xx/xx/xx/eho/login";
+	// （生产）
+	public static String UCLogin = "http://xxx.xx.xx.xx:80/xx/xx/eho/login";
 
 	public static String loginSrc = "080100";
 
