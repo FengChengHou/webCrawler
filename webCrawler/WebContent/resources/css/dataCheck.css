@@ -1,0 +1,52 @@
+#btn ul li{
+	width:100px;
+	background-color:#00A0E8;
+	list-style: none;
+	font-size: 18px;
+	float:left;
+	padding:5px;
+	border-left:1px dotted #cccccc;
+	cursor: pointer;
+	text-align: center;
+	color:white;
+	margin-right:6px;
+}
+
+#title{
+	height: 35px;
+	width:970px;
+	/* border-bottom: 1px solid #DDDDDD; */
+}
+#title ul li{
+	width:140px;
+	height:35px;
+	/* background-color:#00A0E8; */
+	border-bottom:1px solid #DDDDDD;
+	list-style: none;
+	font-size: 18px;
+	float:left;
+	padding:5px;
+	cursor: pointer;
+	text-align: center;
+	color:#666;
+}
+#dataBaseBtn ul li{
+	width:60px;
+	background-color:#00A0E8;
+	list-style: none;
+	font-size: 14px;
+	float:left;
+	padding:5px;
+	border-left:1px dotted #cccccc;
+	cursor: pointer;
+	text-align: center;
+	color:white;
+}
+#dataBaseBtn{
+	float:left;
+	width:220px;
+	margin-left:10px;
+}
+#publish{
+	margin-top: 15px;
+}

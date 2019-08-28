@@ -1,0 +1,155 @@
+body {
+	font-family: verdana,arial, tahoma, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.x-btn-text-icon .x-btn-icon-small-left .x-btn-text{
+    background-position: 0 center;/*默认*/
+    background-repeat: no-repeat;/*默认*/
+    padding-left:18px;/*默认*/
+    height:16px;/*默认*/
+    font-size:15px;/*字体大小设置*/
+}
+
+#logo-table {
+	margin: auto auto 85px ;
+	text-align: left;
+}
+#login-win-div {
+	text-align: left;
+}
+#headerDiv {
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+#headerDiv a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+.x-tree-node-text .x-btn-default-small .x-btn-inner, .x-btn-default-medium .x-btn-inner, .x-btn-default-large .x-btn-inner, .x-btn-default-toolbar-small .x-btn-inner, .x-btn-default-toolbar-medium .x-btn-inner, .x-btn-default-toolbar-large .x-btn-inner, .x-menu-item-text, .x-html-editor-tb .x-font-select, .x-panel-header-default, .x-panel-header-text-default, .x-panel-header-default-framed, .x-tip-header, .x-tip-body, .x-form-invalid-tip-body, .x-tip-header-text, .x-progress-text, .x-toolbar, .x-toolbar .x-form-item-label, .x-toolbar .x-toolbar-text, .x-window-header-text-default, .x-tab-bar, .x-tab button, .x-grid-rowbody, .x-grid-row .x-grid-cell, .x-grid-group-title, .x-grid-row-editor .x-form-field, .x-grid-row-editor .x-form-display-field, .x-form-invalid-under, .x-fieldset-header, .x-column-header, .x-mask-msg div, .x-btn-group-header-text-default-framed, table.x-datepicker-inner a, .x-monthpicker-item, .x-dd-drag-ghost           
+{           
+    font-family: verdana,arial, tahoma, helvetica, sans-serif;
+    font-size: 12px;           
+}           
+            
+.x-column-header            
+{           
+    text-shadow:0 0 0 rgba(255, 255, 255, 0.3);
+}
+
+
+div, ul, li, dl, dt, dd, img, h1, h2 {
+    border: 0 none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+	
+img {
+    border: 0 none;
+}
+
+#header {
+    background: none repeat scroll 0 0 #1477E7;
+    height: 70px;
+}
+
+#headerLogo {
+    display: inline;
+    float: left;
+    /*margin-left: 20px;
+    margin-top: 8px;*/
+}
+
+#headermenu {
+    float: left;
+    margin-right: 0;
+}
+
+#topnav ul {
+    position: relative;
+}
+
+#topnav li.list {
+    display: inline;
+    float: left;
+    margin: 5px 9px 0 0;
+}
+
+#topnav li a {
+    /*border: 1px solid #1E71B1;*/
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline;
+    float: left;
+    height: 58px;
+    overflow: hidden;
+    padding: 4px 7px 0;
+    text-align: center;
+    text-decoration: none;
+    width:70px;
+    background-color: #1677E8;
+}
+
+#topnav li a:hover {
+    background: none repeat scroll 0 0 #16A4F9;
+    /*border: 1px solid #0F4E7F;*/
+}
+
+#topnav li a.onnav {
+    background: none repeat scroll 0 0 #16A4F9;
+   /* border: 1px solid #0F4E7F;*/
+}
+
+#topnav li a span {
+    display: block;
+    height: 32px;
+    margin: 0 auto 2px;
+    overflow: hidden;
+    width: 32px;
+}
+
+#topnav li a span.c1 {
+    background: url("../images/billing.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#topnav li a span.main_home_page {
+    background: url("../images/home.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#topnav li a span.main_home_help {
+    background: url("../images/question.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#topnav li a span.c2 {
+    background: url("../images/support.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#topnav li a span.c3 {
+    background: url("../images/statistics1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#topnav li a span.c4 {
+    background: url("../images/sys_config.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#headermenu div {
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 7px;
+    text-align: center;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 50px;
+    word-break: keep-all;
+}
+
+#headermenu div img {
+    margin: 10px 5px 0;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}

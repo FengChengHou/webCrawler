@@ -1,0 +1,69 @@
+.computer{background-image:url(../images/icons/computer.png)!important;background-repeat:no-repeat;}
+.home{background-image:url(../images/icons/house.png)!important;background-repeat:no-repeat;}
+.cancel{background-image:url(../images/icons/cancel.png)!important;background-repeat:no-repeat;}
+.key{background-image:url(../images/icons/key.png)!important;background-repeat:no-repeat;}
+.save{background-image:url(../images/icons/save.png)!important;background-repeat:no-repeat;}
+.add{background-image:url(../images/icons/add.png)!important;background-repeat:no-repeat;}
+.edit{background-image:url(../images/icons/edit.png)!important;background-repeat:no-repeat;}
+.delete{background-image:url(../images/icons/delete.png)!important;background-repeat:no-repeat;}
+.user{background-image:url(../images/icons/user.png)!important;background-repeat:no-repeat;}
+.user_add{background-image:url(../images/icons/user_add.png)!important;background-repeat:no-repeat;}
+.user_delete{background-image:url(../images/icons/user_delete.png)!important;background-repeat:no-repeat;}
+.user_edit{background-image:url(../images/icons/user_edit.png)!important;background-repeat:no-repeat;}
+.user_go{background-image:url(../images/icons/user_go.png)!important;background-repeat:no-repeat;}
+.system_settings{background-image:url(../images/icons/cog.png)!important;background-repeat:no-repeat;}
+.role{background-image:url(../images/icons/group.png)!important;background-repeat:no-repeat;}
+.role_add{background-image:url(../images/icons/group_add.png)!important;background-repeat:no-repeat;}
+.role_delete{background-image:url(../images/icons/group_delete.png)!important;background-repeat:no-repeat;}
+.role_edit{background-image:url(../images/icons/group_edit.png)!important;background-repeat:no-repeat;}
+.role_save{background-image:url(../images/icons/group_go.png)!important;background-repeat:no-repeat;}
+.reset_pwd{background-image:url(../images/icons/arrow_redo.png)!important;background-repeat:no-repeat;}
+.module{background-image:url(../images/icons/link.png)!important;background-repeat:no-repeat;}
+.module_add{background-image:url(../images/icons/link_add.png)!important;background-repeat:no-repeat;}
+.module_delete{background-image:url(../images/icons/link_delete.png)!important;background-repeat:no-repeat;}
+.module_edit{background-image:url(../images/icons/link_edit.png)!important;background-repeat:no-repeat;}
+.field{background-image:url(../images/icons/tag_blue.png)!important;background-repeat:no-repeat;}
+.field_add{background-image:url(../images/icons/tag_blue_add.png)!important;background-repeat:no-repeat;}
+.field_delete{background-image:url(../images/icons/tag_blue_delete.png)!important;background-repeat:no-repeat;}
+.field_edit{background-image:url(../images/icons/tag_blue_edit.png)!important;background-repeat:no-repeat;}
+.query{background-image:url(../images/icons/query.png)!important;background-repeat:no-repeat;}
+.reset{background-image:url(../images/icons/reset.png)!important;background-repeat:no-repeat;}
+.synchro{background-image:url(../images/icons/arrow_refresh.png)!important;background-repeat:no-repeat;}
+.send {background-image:url(../images/icons/arrow_right.png) !important;background-repeat: no-repeat;}
+.ui-button{background-image:url(../images/icons/ui-button.png) !important;background-repeat: no-repeat;}
+.info_tip{background-image:url(../images/icons/information-balloon.png) !important;background-repeat: no-repeat;}
+
+.btn-onlineUser{background-image:url(../images/icons/user_go.png) !important;background-repeat: no-repeat;}
+.btn-mail_box{background-image:url(../images/icons/mail_gold.png) !important;background-repeat: no-repeat;}
+.btn-exit_sys{background-image:url(../images/icons/exit.png) !important;background-repeat: no-repeat;}
+.btn-ctrl_panel{background-image:url(../images/icons/system-setting.png) !important;background-repeat: no-repeat;}
+.btn-user_edit{background-image:url(../images/icons/user_edit.png) !important;background-repeat: no-repeat;}
+.btn-user{background-image:url(../images/icons/user.png) !important;background-repeat: no-repeat;}
+.btn-win_resize{background-image:url(../images/icons/application-resize-full.png) !important;background-repeat: no-repeat;}
+.btn-arrow_refresh{background-image:url(../images/icons/arrow_refresh.png) !important;background-repeat: no-repeat;}
+.btn-favorite{background-image:url(../images/icons/favorite.png) !important;background-repeat: no-repeat;}
+.btn-resource{background-image:url(../images/icons/folders-stack.png) !important;background-repeat: no-repeat;}
+.btn-role{background-image:url(../images/icons/iconLock11.gif) !important;background-repeat: no-repeat;}
+.btn-log{background-image:url(../images/icons/reports-stack.png) !important;background-repeat: no-repeat;}
+.btn-syslog{background-image:url(../images/icons/monitor-sidebar.png) !important;background-repeat: no-repeat;}
+.btn-msglog{background-image:url(../images/icons/mobile-phone.png) !important;background-repeat: no-repeat;}
+.btn-bill{background-image:url(../images/icons/bill.gif) !important;background-repeat: no-repeat;}
+.btn-dictionary{background-image:url(../images/icons/book.png) !important;background-repeat: no-repeat;}
+.btn-zone{background-image:url(../images/icons/zone.png) !important;background-repeat: no-repeat;}
+.btn-speaker{background-image:url(../images/icons/speaker-volume-control.png) !important;background-repeat: no-repeat;}
+.btn-mails-stack{background-image:url(../images/icons/mails-stack.png) !important;background-repeat: no-repeat;}
+.btn-ip{background-image:url(../images/icons/ip.png) !important;background-repeat: no-repeat;}
+.btn-login{background-image:url(../images/icons/login.png) !important;background-repeat: no-repeat;}
+.btn-address-book{background-image:url(../images/icons/address-book.png) !important;background-repeat: no-repeat;}
+.btn-private-address-book{background-image:url(../images/icons/private-address-book.png) !important;background-repeat: no-repeat;}
+.btn-calculator{background-image:url(../images/icons/calculator.png) !important;background-repeat: no-repeat;}
+.btn-exit{background-image:url(../images/icons/exit.gif) !important;background-repeat: no-repeat;}
+.btn-comment{background-image:url(../images/icons/comment.gif) !important;background-repeat: no-repeat;}
+.btn-newico{background-image:url(../images/icons/newico.gif) !important;background-repeat: no-repeat;}
+.btn-newpm{background-image:url(../images/icons/newpm.gif) !important;background-repeat: no-repeat;}
+.btn-ausc{background-image:url(../images/icons/ausc.png) !important;background-repeat: no-repeat;}
+.btn-book_user{background-image:url(../images/icons/book_user.png) !important;background-repeat: no-repeat;}
+.btn-navi{background-image:url(../images/icons/navi.png) !important;background-repeat: no-repeat;}
+.btn-shortcut{background-image:url(../images/icons/shortcut.png) !important;background-repeat: no-repeat;}
+.btn-excel{background-image:url(../images/icons/document-excel.png) !important;background-repeat: no-repeat;}
+

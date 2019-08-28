@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="false" monitoring="off" dynamicConfig="false">
+	
+	<!-- <diskStore path="java.io.tmpdir" />  -->
+	<diskStore path="c:\\cache_temp" /> 
+	
+	<!-- 默认缓存配置 -->
+	<defaultCache 
+		maxElementsInMemory="2" 
+		eternal="false"
+		timeToIdleSeconds="120"    
+		timeToLiveSeconds="1200" 
+		overflowToDisk="true"
+		maxElementsOnDisk="10000000" 
+		diskPersistent="false"
+		diskExpiryThreadIntervalSeconds="120" 
+		memoryStoreEvictionPolicy="LRU" />
+	
+	<!-- 菜单缓存
+	<cache	name="menuCache" 
+		maxElementsInMemory="2"
+		maxElementsOnDisk="10000" 
+		eternal="false" 
+		overflowToDisk="true"
+		diskSpoolBufferSizeMB="50" /> -->
+		
+
+	
+
+		
+	<!-- 
+		缓存配置
+		name							缓存名称.
+		
+		maxElementsInMemory				缓存最大个数. 
+		
+		eternal							对true时表示缓存中的数据永远不会过期；false时表示缓存中的数据会过期，
+										过期的依据需要根据timeToIdleSeconds 和 timeToLiveSeconds 的值 
+		
+		timeToIdleSeconds				设置对象在失效前的允许闲置时间(单位:秒).仅当eternal=false对象不是永久有效时使用,可选属性,默认值是0,
+										也就是可闲置时间无穷大. 
+		
+		timeToLiveSeconds				设置对象在失效前允许存活时间(单位:秒).
+										仅当eternal=false对象不是永久有效时使用,默认是0.,也就是对象存活时间无穷大. 
+		
+		overflowToDisk					当内存中对象数量达到maxElementsInMemory时,Ehcache将会对象写到磁盘中. 
+		
+		diskSpoolBufferSizeMB			这个参数设置DiskStore(磁盘缓存)的缓存区大小.默认是30MB.每个Cache都应该有自己的一个缓冲区. 
+		
+		maxElementsOnDisk				硬盘最大缓存个数.
+		
+		diskPersistent					是否允许数据持久化到内存，如果是，即JVM重启缓存中的数据仍然有效，该设置影响性能，大概减低8倍性能 
+		
+		diskExpiryThreadIntervalSeconds	磁盘中数据过期检查线程的轮询时间间隔,默认是120秒.
+		
+		memoryStoreEvictionPolicy		当达到maxElementsInMemory限制时,Ehcache将会根据指定的策略去清理内存.默认策略是LRU(最近最少使用).
+										其他的有FIFO(先进先出),LFU(较少使用). 
+		
+		clearOnFlush:					内存数量最大时是否清除.
+		
+		注意的是触发ehcache去检查这个元素是否过期expiry，是由用户访问了元素，即调用cache.get(key)按需触发，这时ehcache才会去检查这个元素是否过期，
+		如果过期就把该元素清除，并返回null。所以如果存在这样的场景：有些元素我们一直都不去访问，且内存中的元素数量又没超出maxElementsInMemory的值，
+		那么这些过期元素将一直驻留在内存中。
+
+		为了解决这个问题，我们应该创建一个后台线程，这个线程可以过一段时间去触发一下cache.evictExpiredElements()，这样即可把内存中驻留的过期元素清除
+	-->
+		
+</ehcache>

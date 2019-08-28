@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" 
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+	
+	<!--燃料类型 -->
+	<util:map id="fuelType" scope="application">
+		<entry key="1" value="汽油" />
+		<entry key="2" value="柴油" />
+		<entry key="3" value="天然气" />
+		<entry key="4" value="液化气" />
+		<entry key="5" value="电动" />
+		<entry key="6" value="其他" />
+	</util:map>
+	
+	
+</beans>

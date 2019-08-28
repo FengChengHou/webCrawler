@@ -1,0 +1,26 @@
+[{
+    "id":1,
+    "text":"Url Admin",
+    "iconCls":"icon-ok",
+    "children":
+		[{
+			"text":"urls",
+			"checked":true
+		},{
+			"text":"Books",
+			"state":"open",
+			"attributes":{
+				"url":"/demo/book/abc",
+				"price":100
+			}
+		}]
+    },{
+		"text":"User Admin",
+		"iconCls":"icon-ok",
+		"state":"closed",
+		"children":[{
+				"text":"Java"
+			},{
+				"text":"C#"
+		}]
+}]
